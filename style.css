@@ -1,0 +1,215 @@
+:root {
+    --tauret-color: #863CFF;
+    --tauret-border: 3px red solid;
+    --tauret-border-color: 0.3rem #863CFF solid;
+    --sm-tauret: 1.4rem;
+    --md-tauret: 1.6rem;
+    --lg-tauret: 1.8rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 62.5%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+nav .nav-right-section a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav .nav-right-section a:hover {
+    color: var(--tauret-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('./Assets/apps-negro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section .menu-icon:hover {
+    background-image: url('./Assets/apps-tauret-color.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 520px;
+    border-radius: 100px;
+    border: 1px var(--tauret-color) solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 10px 0 var(--tauret-color);
+    border-color: purple;
+}
+
+main .main-input input {
+    width: 420px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: var(--sm-tauret);
+    font-family: "Quicksand", sans-serif;
+}
+
+main .main-input .search-icon {
+    background-image: url('./Assets/Search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('./Assets/microfono.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: rgba(211, 211, 211, 0.291);
+    border: 0;
+    font-size: 14px;
+    color: blacks;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin: 8px;
+}
+
+main .main-buttons button:hover {
+    color: var(--tauret-color);
+    border: 1px var(--tauret-color) solid;
+    box-shadow: 1px 1px 2px 0 var(--tauret-color);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    gap: 10px;
+}
+
+footer .footer-right {
+    justify-self: end;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: var(--tauret-color);
+}
+
+
+
+
+
+
